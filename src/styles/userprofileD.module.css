@@ -1,0 +1,27 @@
+.ProfileSection {
+  width: 900px;
+  height: 70vh;
+  /* border: 2px solid red; */
+  margin: 25px auto;
+  margin-top: 75px;
+}
+.ProfileSectionBoxes {
+  width: 100%;
+  height: 90px;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.726);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  color: blue;
+  padding: 15px;
+  font-size: 25px;
+}
+.ProfileSectionBoxes bold {
+  color: #000;
+  text-shadow: none;
+}
+.ProfileSectionBoxes h4,
+.ProfileSectionBoxes h5 {
+  text-shadow: 1px 1px 1px #000;
+}
