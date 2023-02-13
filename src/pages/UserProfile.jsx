@@ -12,6 +12,7 @@ const UserProfile = (props) => {
         width: "400px",
         display: "flex",
         justifyContent: "space-around",
+        marginLeft: "3px",
         alignItems: "center",
         // border: "2px solid red",
         height: "100%",
@@ -21,6 +22,7 @@ const UserProfile = (props) => {
         style={{
           color: "#fff",
           marginRight: "3px",
+          marginLeft: "7px",
           width: "40%",
           height: "100%",
           transform: "scale(0.8)",
