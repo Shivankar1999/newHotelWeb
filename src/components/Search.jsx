@@ -26,7 +26,7 @@ const Search = () => {
     }
   };
   return (
-    <div className={styles.SearchInput}>
+    <>
       <form onSubmit={handleFilters}>
         <input
           onChange={(e) => setDish(e.target.value)}
@@ -36,7 +36,7 @@ const Search = () => {
         />
         <button type="search">Search</button>
       </form>
-    </div>
+    </>
   );
 };
 

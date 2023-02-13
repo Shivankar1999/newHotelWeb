@@ -17,11 +17,7 @@ export const Navbar = () => {
             Food Arena
           </Link>
           <div className={styles.navlinkBox}>
-            <ul>
-              <li>
-                <Search />
-              </li>
-            </ul>
+            <Search />
           </div>
         </div>
 
