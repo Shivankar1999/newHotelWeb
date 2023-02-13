@@ -65,7 +65,7 @@ a {
   margin-right: 10px;
 
   width: 70%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-around;
 }
@@ -221,7 +221,7 @@ svg {
   }
   .navItems .logo {
     width: 70%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
   }
@@ -231,7 +231,7 @@ svg {
   }
   .navItems .logo .navlinkBox {
     width: 60%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
   }
   /* .navItems .logo .navlinkBox > .SearchInput {
     width: 100%;
@@ -240,7 +240,7 @@ svg {
     width: 150px;
     height: 100%;
     margin-right: 60px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .navlinkBox form input {
     width: 100%;
