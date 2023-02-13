@@ -35,12 +35,13 @@ const UserProfile = (props) => {
       </p>
       <button
         style={{
-          padding: "5px 10px",
+          padding: "5px 3px",
           color: "black",
           backgroundColor: "#fff",
-          fontSize: "20px",
-          fontWeight: "bold",
+          fontSize: "15px",
+          fontWeight: "light",
           cursor: "pointer",
+          margin: "2px 8px",
         }}
         onClick={() => {
           props.logOut(props.firebaseAuth);
