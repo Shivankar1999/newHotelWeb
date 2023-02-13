@@ -9,7 +9,7 @@ const UserProfile = (props) => {
   return (
     <div
       style={{
-        width: "600px",
+        width: "400px",
         display: "flex",
         justifyContent: "space-around",
         alignItems: "center",
@@ -21,8 +21,9 @@ const UserProfile = (props) => {
         style={{
           color: "#fff",
           marginRight: "3px",
-          width: "60%",
+          width: "40%",
           height: "100%",
+          transform: "scale(0.8)",
         }}
       >
         <Link

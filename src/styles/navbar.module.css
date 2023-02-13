@@ -86,16 +86,7 @@ svg {
   max-width: 300px;
   /* border: 2px solid white; */
 }
-.navItems .logo .navlinkBox ul {
-  display: flex;
-  justify-content: space-around;
-  padding: 5px;
-  align-items: center;
-  text-align: center;
-}
-.navItems .logo .navlinkBox ul li {
-  margin-right: 10px;
-}
+
 .userData {
   display: flex;
   width: 350px;
