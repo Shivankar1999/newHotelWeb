@@ -1,18 +1,21 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { Navbar } from "./Navbar";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Navbar } from './Navbar';
 import {
   Mycartitem,
   PageNotFound,
   ProductDetail,
   Products,
   AddAcount,
-  UserProfile,
   UserProfileDetails,
-} from "../pages";
-import { GlobalData } from "../GlobalDataProvider/GlobalData";
-import Fotter from "./Fotter";
-import MyfilterDish from "../pages/MyfilterDish";
+} from '../pages';
+import { GlobalData } from '../GlobalDataProvider/GlobalData';
+import Fotter from './Fotter';
+import MyfilterDish from '../pages/MyfilterDish';
+import Italian from '../pages/Italian';
+import Indian from '../pages/Indian';
+import Japnese from '../pages/Japnese';
+import Chinese from '../pages/Chinese';
 
 const App = () => {
   return (
@@ -28,7 +31,12 @@ const App = () => {
           <Route path="/addacount" element={<AddAcount />} />
           <Route path="/mycartitem" element={<Mycartitem />} />
           <Route path={`/productdetail`} element={<ProductDetail />} />
-          <Route path={"*"} element={<PageNotFound />} />
+          <Route path={'/italian'} element={<Italian />} />
+          <Route path={'/indian'} element={<Indian />} />
+          <Route path={'/japnese'} element={<Japnese />} />
+          <Route path={'/chinese'} element={<Chinese />} />
+
+          <Route path={'*'} element={<PageNotFound />} />
         </Routes>
         <Fotter />
       </GlobalData>

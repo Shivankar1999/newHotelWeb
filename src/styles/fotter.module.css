@@ -4,7 +4,7 @@
   padding: 15px 6px;
   height: 85px;
   box-shadow: 1px 1px 1px 1px rgba(5, 2, 32, 0.993);
-  background-color: rgb(3, 16, 59);
+  background-color: rgba(3, 16, 59, 0.842);
   color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +107,8 @@
 
 @media (max-width: 500px) {
   .majorLinks {
-    display: none;
+    display: inline-block;
+    margin: 3px 15px;
   }
   .ConnectMedia {
     display: block;
@@ -116,7 +117,6 @@
     height: 100%;
   }
   .ConnectMedia a {
-    display: inline-block;
-    margin: 3px 15px;
+    display: none;
   }
 }
